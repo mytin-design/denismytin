@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="data_form">
+        <label for="data_form">Service:</label>
+        <select>
+            <option value="Select" default>Select</option>
+            <option value="Website">Website</option>
+            <option value="Mobile Application">Mobile Application</option>
+            <option value="Desktop Application">Desktop Application</option>
+            <option value="Code Review/Adjustment">Code Review/Adjustment</option>
+            <option value="Other">Other</option>
+        </select>
+        
+        
+        <!--User selects number of html pages and price for web dev-->
+        <div class="onDisplaySelect">
+            <label class="website_budget">Website Price:</label>
+            <div class="selectWebOpts">
+                <select name="" id="" class="webSel">
+                    <option value="1 page">1 Page</option>
+                    <option value="2 pages">2 Pages</option>
+                    <option value="3 Pages">3 Pages</option>
+                    <option value="4 Pages">4 pages</option>
+                    <option value=" =>5 Pages">=> 5 Pages</option>
+                </select>
+            </div>
+            <div class="selectWebPrice">
+                <select name="" id="" class="webPriceSel">
+                    <option value="$199">&dollar;199</option>
+                    <option value="$249">&dollar;249</option>
+                    <option value="$299">&dollar;299</option>
+                    <option value="$349">&dollar;349</option>
+                    <option value="$599">&dollar;599</option>
+                </select>
+            </div>
+        </div>
+
+
+        <!--User selects number of pages in application, and price-->
+
+        <div class="onDisplaySelect">
+            <label class="app_budget">Application Price:</label>
+            <div class="selectAppOpts">
+                <select name="" id="" class="appSel">
+                    <option value="1 page">1 Page</option>
+                    <option value="2 pages">2 Pages</option>
+                    <option value="3 Pages">3 Pages</option>
+                    <option value="4 Pages">4 pages</option>
+                    <option value=" =>5 Pages">=> 5 Pages</option>
+                </select>
+            </div>
+            <div class="selectAppPrice">
+                <select name="" id="" class="appPriceSel">
+                    <option value="$299">&dollar;199</option>
+                    <option value="$349">&dollar;249</option>
+                    <option value="$499">&dollar;299</option>
+                    <option value="$549">&dollar;349</option>
+                    <option value="$699">&dollar;599</option>
+                </select>
+            </div>
+        </div>
+
+        <textarea rows="5" cols="" class="area_text" placeholder="My app/website should ..."></textarea><br>
+        <label for="" class="uploadFiles">Upload Files</label><br>
+        <input type="file" name="filename" id="uploadFl">
+        <br>
+
+        <input type="sumbit" id="checkOut" value="CheckOut" name="payment">
+
+    </form>
+</body>
+</html>

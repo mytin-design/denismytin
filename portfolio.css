@@ -1,0 +1,203 @@
+/* main styles duplicated from index file */
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;700&family=Spline+Sans:wght@300;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --buttons: rgb(4, 20, 168);
+    --main-body: rgb(249, 255, 254);
+    --main-text: rgb(0, 7, 10);
+    --red:#f00;
+    
+}
+
+html, body {
+    font-family: 'Spline Sans', sans-serif;
+    background: #eee;
+
+}
+
+/* header imports style from main css file */
+
+/* body styles for portfolio page */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    gap: 40px;
+    
+}
+
+.central {
+    padding: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: column;
+    height: 100vh;
+}
+
+.aside-right {
+    padding: 20px;
+    color: #fff;
+    width: 20%;
+    height: 200px;
+    background-image: linear-gradient(32deg, hsla(123, 34%,43%,.6), hsla(103, 23%,69%,.5), hsl(234, 34%, 76%,.9));
+    
+}
+
+/*aside section styles */
+
+.profile_card {
+    position: relative;
+    top: -9rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    width: 30%;
+    box-shadow: 2px 10px 8px rgb(195, 224, 224);
+
+}
+
+.grad_cover {
+    height: 150px;
+    width: 100%;
+    background-image: linear-gradient(32deg, hsla(123, 34%,43%,.6), hsla(103, 23%,69%,.5), hsl(234, 34%, 76%,.9));
+}
+
+/*.absolute_user {
+    position: absolute;
+    top: 25%;
+    border: 5px ridge white;
+    border-radius: 50%;
+    border-color: rebeccapurple;
+}*/
+
+#uploadFrame {
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    top: 5rem;
+    background-color: chocolate;
+}
+
+.tag_name {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+.user_info_container {
+    display: none;
+    /*padding: 10px;
+    overflow-x: scroll;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    border-radius: 5px;
+    background: rgb(248, 247, 247);
+box-shadow: 2px 1px 8px rgb(195, 224, 224);
+*/
+}
+
+.user_skills {
+    margin-top: 20px;
+} 
+
+.resume_port {
+    margin-top: 20px;
+    border: 1px solid;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    background: black;
+    border-radius: 5px;
+}
+
+.resume_port > a {
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.exp_title, .sum, .edu-mine {
+    text-decoration: underline;
+} 
+
+/* middle container styles */
+
+
+.portfolio_card {
+    width: 90%;
+    display: flex;
+
+    align-items: center;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: hsla(280, 20%, 90%, .2);
+    box-shadow: 2px 10px 8px rgb(195, 224, 224);
+
+}
+
+.portfolio_card:hover {
+    background-color: white;
+    /*transform: scale(1.1);*/
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.image_port {
+    border-radius: 5px;
+    padding: 3px;
+    border: 3px ridge black ;
+}
+
+.port_title {
+    font-size: 16px;
+}
+
+
+/*mobile design*/
+
+@media screen and (max-width: 900px) {
+    .container {
+        display: flex;
+        flex-flow: column;
+        margin-top: 10rem;
+    }
+
+    .profile_card {
+        width: 400px;
+    }
+
+    .central {
+        width: 100%;
+    }
+}

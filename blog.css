@@ -1,0 +1,163 @@
+.blogContainer {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contentTitles {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.titleLink {
+    display: flex;
+    align-items: center;
+}
+
+.titleTitle {
+    padding-left: 5px;
+}
+
+.contentWrapper {
+    margin-top: 20px;
+}
+
+
+.essentialsBox {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.headerLinkBox {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerLinkBox > a {
+    text-decoration: none;
+    color: black;
+}
+
+#searchBox > input {
+    outline: none;
+}
+
+.contentCard {
+    margin: 20px 0px 20px 0px;
+}
+
+.postInfo {
+    margin-top: 15px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.auditorProf {
+    height: 45px;
+    border-radius: 100%;
+}
+
+.auditorInfo {
+    padding-left: 10px;
+}
+
+.postBy {
+    font-weight: 700;
+}
+.datePosted {
+    font-size: 12px;
+    background: #eee;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+h6 {
+    margin-bottom: 30px;
+    font-size: 1.9rem;
+    font-weight: 100;
+}
+
+.authorsBox {
+    gap: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.authProf {
+    height: 45px;
+    border-radius: 100%;
+}
+
+.authorIntel {
+    border: 1px solid;
+    padding: 5px;
+    display: flex;
+    border-radius: 5px;
+    flex-flow: column;
+}
+
+.authPerInfo {
+    display: flex;
+    align-items: center;
+}
+
+.authName {
+    padding-left: 10px;
+}
+
+.authBio {
+    border: 1px solid;
+    margin-top: 10px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    background: rgba(28, 7, 53, 0.808);
+    color: white;
+
+}
+
+.commentsBox {
+    border: 1px solid;
+    margin: 20px auto;
+    width: 80%;
+    padding: 5px;
+
+}
+
+.comInfo {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.commenterProf {
+    height: 45px;
+    border-radius: 100%;
+}
+
+#comment {
+    padding-left: 20px;
+    width: 100%;
+}
+
+#commented {
+    width: 100%;
+    height: 35px;
+    outline: none;
+}
+
+#submitComment {
+    height: 35px;
+    width: 50px;
+    margin-left: 10px;
+}
