@@ -17,15 +17,15 @@
 
 html, body {
     font-family: 'Spline Sans', sans-serif;
+    background-color: #eee;
 }
 
 header {
     height: 100px;
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
-
     
 }
 
@@ -67,9 +67,10 @@ abbr {
 }
 
 
+
 .intro {
     padding: 10px;
-    background: url(./images/intro_design.jpg) center no-repeat;
+    background: url(./images/des.jpg) 50% 50% no-repeat;
     background-attachment: scroll;
     background-size: cover;
     height: 70vh;
@@ -81,7 +82,8 @@ abbr {
 
 .user-experience {
     position: relative;
-    left: -100%;
+    top: -90%;
+    left: -110%;
     text-align: center;
     height: 100px;
     width: 300px;
@@ -103,6 +105,8 @@ abbr {
 
 /* body styles */
 .semi-container {
+    width: 70%;
+    margin: 0 auto;
     display: flex;
     flex-flow: column;
 }
@@ -139,12 +143,13 @@ abbr {
 
 .card {
     height: 40vh;
-    width: 20%;
+    width: 30%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-flow: column;
     text-transform: uppercase;
+    background-color: #fff;
     text-align: center;
     box-shadow: 2px 10px 28px rgb(195, 224, 224);
     border-radius: 8px;
@@ -154,7 +159,7 @@ abbr {
 }
 
 .card:hover {
-    background-color: #eee;
+    background-color: #fff;
     cursor: pointer;
 }
 
@@ -201,6 +206,7 @@ abbr {
 
 .lang_section {
     display: flex;
+    background-color: #fff;
     flex-flow: column;
 }
 
@@ -287,3 +293,22 @@ footer {
     text-decoration: none;
 }
 
+
+@media only screen and (max-width: 900px) {
+    header {
+        width: 100%;
+    }
+    .semi-container {
+        width: 100%;
+    }
+
+    .card {
+        width: 40%;
+    }
+
+    .user-experience {
+        width: 100%;
+        top: -45%;
+        left: 10%;
+    }
+}

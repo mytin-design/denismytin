@@ -38,6 +38,7 @@ html, body {
 
 .central {
     padding: 20px;
+    background-color: #fff;
     width: 70%;
     display: flex;
     justify-content: space-evenly;
@@ -48,6 +49,7 @@ html, body {
 
 .aside-right {
     padding: 20px;
+    background-color: #fff;
     color: #fff;
     width: 20%;
     height: 200px;
@@ -61,6 +63,7 @@ html, body {
     position: relative;
     top: -9rem;
     border-radius: 10px;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     flex-flow: column;

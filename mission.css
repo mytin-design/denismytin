@@ -39,6 +39,3 @@ html, body {
     /*transition: border-bottom 1s ease-in-out;*/
 }
 
-.m_title:hover {
-    border-bottom:3px ridge blue;
-}

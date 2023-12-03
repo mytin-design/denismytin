@@ -12,3 +12,13 @@ module.exports = {
     quotes: ["error", "double"],
   },
 };
+
+
+//Object container for languages for each action
+//target container from server and display appropriate content
+languages = [
+  {mainForWeb: "Javascript"},
+  {mainForDatabase: "Php"},
+  {mainForSoftware: "C++"},
+  {mainForDesign: ["Bootstrap", "CSS"]},
+]

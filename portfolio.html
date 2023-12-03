@@ -8,6 +8,9 @@
         <meta property="og:url" content="https://www.denismytin.com/personal">
         <meta property="og:title" content="https://www.denismytin.com/personal/images/denis.img">
         <meta name="X-UA-Compatible" content="IE-edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="denismytin.css">
         <link rel="stylesheet" href="portfolio.css">
         <script src="https://kit.fontawesome.com/45fbaa9681.js" crossorigin="anonymous"></script>
@@ -17,14 +20,14 @@
         <!--===== header section =====-->
         <header>
             <nav class="navwrapper" id="navwrapper">
-                <img id="logo" class="logo" src="./images/logo_main.jpg" width="70" alt="Akkadian">
-                <a class="head-contact blue-btn" href="denismytin.html" target="_self">HOME</a>
+                
+                <a class="home" href="denismytin.html" target="_self"><img id="logo" class="logo" src="./images/logo_main.jpg" width="70" alt="Akkadian"></a>
             </nav>
         </header>
         <main class="container" id="container">
 
             <!--Aside section -profile information-->
-            <div class="profile_card">
+            <div class="profile_card" id="#central">
                 <div class="grad_cover"></div>
                 <!--<a href="#" id="upload_user_avr"><img src="./images/logo_main.jpg" alt="Denis Profile" width="100" class="profile_jpg_user absolute_user"></a>-->
                 <form id="uploadFrame" action="" method="get">
@@ -78,7 +81,7 @@
             
 
             <!--middle section - with portfolio info-->
-            <div class="central">
+            <div class="central" id="central">
             <!--======= Personal Portfolio ========-->
             <div class="portfolio_card" id="personal_main_page">
                 <a href="https://codepen.io/mytin-design/full/LYzBwzy"><img src="./images/denismytin.PNG" width="150" alt="Personal Portfolio" class="personal_website image_port"></a>
@@ -302,9 +305,9 @@
         <footer>
             <div class="links-container">
             <div class="about">
-                <a id="linker" class="mission_link" href="mission.htm" target="_self">Mission</a>
-                <a id="linker" class="vision_link" href="vision.htm" target="_self">Vision</a>
-                <a id="linker" class="blog_link" href="blog.htm" target="_self">Blog</a>
+                <a id="linker" class="mission_link" href="about.html" target="_self">About</a>
+                <a id="linker" class="vision_link" href="mission.html" target="_self">Mission</a>
+                <a id="linker" class="blog_link" href="blog.html" target="_self">Blog</a>
             </div>
     
             <div class="profile" id="contact_box">

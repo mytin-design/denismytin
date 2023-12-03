@@ -18,3 +18,63 @@
 html, body {
     font-family: 'Spline Sans', sans-serif;
 }
+
+.about_container {
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    "a c  b"
+    "a c  b"
+    "a c  b";
+    margin: 20px;
+}
+
+.profile_card {
+    grid-area: a;
+
+}
+
+.about_central {
+    grid-area: c;
+}
+
+.aside_ab_right {
+    grid-area: b;
+}
+
+.aside_ab_right,  .about_central, .profile_card {
+    background: #fff;
+    border-radius: 5px;
+}
+
+
+.grid-box {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.grad_cover {
+    display: flex;
+    justify-content: center;
+
+}
+
+.tag_name, .exp_title, .edu-mine, .about_title, .ab_title-1, .values, .abt_aside_title {
+    text-align: center;
+}
+
+ol, ul {
+    list-style-type: circle;
+}
+
+.user_skills, .edu {
+    margin-top: 20px;
+}
+
+.resume_port {
+    display: flex;
+    justify-content: space-around;
+}
